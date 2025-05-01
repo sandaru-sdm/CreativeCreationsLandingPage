@@ -49,9 +49,9 @@ document.querySelector('.btn-submit').addEventListener('click', function(e) {
     }, 600);
 });
 
-// Form submission (prevent default for demo)
+// Form submission 
 document.getElementById('contactForm').addEventListener('submit', function(e) {
     e.preventDefault();
-    alert('Thank you for your message! In a real application, this would be sent to the server.');
+    alert('Thank you for your message!');
     this.reset();
 });
