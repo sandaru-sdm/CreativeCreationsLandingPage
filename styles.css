@@ -88,7 +88,7 @@ body {
 }
 
 .btn-custom:hover {
-    color: white;
+    color: rgb(0, 102, 255);
     transform: translateY(-3px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
